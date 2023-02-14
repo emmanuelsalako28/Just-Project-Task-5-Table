@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@600&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+table {
+    height: 704px;
+    width: 667px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+
+th{
+    height: 64px;
+        width: 262px;
+
+padding: 1.5rem;
+}
+
+table,tbody, tr,
+td,
+th {
+    
+    font-family: 'Manrope', sans-serif;
+    Vertical-align: Top;
+    border: 1px solid black;
+    height: 64px;
+    padding: 1.5rem;
+    margin: 3rem auto;
+    font-size: 24px;
+    font-style: medium;
+
+}
+#head th{
+border-width: 0px, 1px, 1px, 0px;
+
+    border-style: solid;
+    font-family: 'Halant', serif;
+    border-color: #000000;;
+    font-size: 32px;
+
+}
